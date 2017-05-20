@@ -1,0 +1,30 @@
+{
+  "name": "scss-scrutinizer",
+  "version": "1.0.0",
+  "description": "Scss unit testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "scss-scrutinizer.scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luketeaford/scss-scrutinizer.git"
+  },
+  "keywords": [
+    "scss",
+    "unit",
+    "testing",
+    "framework",
+    "sass",
+    "scrutiny"
+  ],
+  "author": "Luke Teaford <luke@luketeaford.com> (http://luketeaford.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/luketeaford/scss-scrutinizer/issues"
+  },
+  "homepage": "https://github.com/luketeaford/scss-scrutinizer#readme"
+}

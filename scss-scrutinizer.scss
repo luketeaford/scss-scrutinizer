@@ -1,0 +1,13 @@
+@if function-exists(expect) {
+  @error 'A function named "expect" already exists.';
+}
+
+@function expect($func, $params, $result) {
+  $expected: call(#{$func}, $params);
+
+  @if $expected != $result {
+    @error 'FAIL: Expected #{$expected} to equal #{$result}';
+  }
+
+  @return 'PASS: Expected #{$func($params)} to equal #{$result}';
+}
