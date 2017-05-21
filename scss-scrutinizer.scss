@@ -5,7 +5,7 @@
 @function expect($func, $params, $result) {
   $expected: call(#{$func}, $params);
 
-  @if $expected != $result {
+  @if inspect($expected) != inspect($result) {
     @error 'FAIL: Expected #{$expected} to equal #{$result}';
   }
 
