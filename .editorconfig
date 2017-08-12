@@ -1,14 +1,8 @@
-# Set this config to root level
 root = true
 
-# Unix-style newlines with a newline ending every file
-[*]
-end_of_line = lf
-insert_final_newline = true
-
-# Soft tabs forever
 [*]
 charset = utf-8
+end_of_line = lf
 indent_size = 2
 indent_style = space
 insert_final_newline = true
